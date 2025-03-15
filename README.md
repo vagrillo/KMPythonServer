@@ -9,7 +9,6 @@ All made by AI (_DeepSeek R1_) !
 ## ✨ Key Features
 
 ### **Advanced Local Control**
-- Drawing geometric shapes (circles)
 - Smooth pointer movement
 - Single and double clicks
 - Drag-and-drop functionality
@@ -17,7 +16,7 @@ All made by AI (_DeepSeek R1_) !
 - Support for left/right mouse buttons
 
 ### **Remote Control via Web**
-- Full-screen black interface
+- Full-screen black interface (for my PIP needs)
 - Precise mouse movement tracking
 - Real-time click/double-click detection
 - Multi-browser support
