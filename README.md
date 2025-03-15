@@ -4,6 +4,8 @@
 
 An advanced Python server for remote mouse control via a web interface, combining desktop automation and network functionality.
 
+All made by AI (_DeepSeek R1_) !
+
 ## ✨ Key Features
 
 ### **Advanced Local Control**
