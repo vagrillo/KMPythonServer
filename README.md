@@ -4,6 +4,10 @@
 
 An advanced Python server for remote mouse control via a web interface, combining desktop automation and network functionality.
 
+I made this project to solve a stupid need that comes from my laziness, I tried to collect the reasons for this need in the pdf (pipKMPythonserver.pdf) present in this repository.
+
+In short it is useful when you have 2 systems of which one in PIP and you want to control it using a web browser.
+
 All made by AI (_DeepSeek R1_) !
 
 ## ✨ Key Features
