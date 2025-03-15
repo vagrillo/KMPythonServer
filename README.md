@@ -1,8 +1,5 @@
 # KMPythonServer
-Keyboard  and Mouse http server written in python
-
 ![Python](https://img.shields.io/badge/python-3.7%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
 ![Flask](https://img.shields.io/badge/flask-2.0%2B-lightgrey)
 
 An advanced Python server for remote mouse control via a web interface, combining desktop automation and network functionality.
@@ -37,3 +34,72 @@ An advanced Python server for remote mouse control via a web interface, combinin
    ```bash
    git clone https://github.com/yourusername/KMPythonServer.git
    cd KMPythonServer
+
+
+2. Install dependencies:
+   ```bash
+   pip install pyautogui flask
+
+
+3. Run the script:
+   ```bash
+   python km_python_server.py
+
+
+## 🖥️ Usage
+
+### Basic Mode
+
+python km_python_server.py
+-   Draws a circle on the screen
+-   Moves the mouse to the center
+-   Performs an automatic click
+    
+
+### Server Mode
+
+python km_python_server.py --server
+-   Starts the HTTP server on port 8071
+-   Accessible via browser at  `http://localhost:8071`
+    
+
+### Advanced Options
+
+bash
+
+Copy
+
+# Change server port
+python km_python_server.py --port 8080
+
+# Disable graphical features
+python km_python_server.py --headless
+
+
+## 🛠️ Architecture and Components
+
+### Technology Stack
+-   **Core Engine**: PyAutoGUI for mouse control
+-   **Web Server**: Flask for REST API
+-   **Frontend**: HTML5/CSS3/JavaScript for web interface
+-   **Concurrency**: Threading for async I/O
+    
+
+#
+## 🔒 Security Considerations
+1.  **Firewall**: Ensure port 8071 is open
+2.  **Authentication**: Add security layers for production use
+3.  **CORS**: Configure properly for cross-domain access
+4.  **Fail-Safe**: Disabled to allow absolute movements
+
+**Important**: Do not use in untrusted environments without proper authentication mechanisms.
+
+    
+
+## 📚 Acknowledgments
+-   PyAutoGUI development team
+-   Flask community
+-   PEP8 standards for code guidelines
+    
+
+ 
