@@ -98,10 +98,9 @@ python km_python_server.py --headless
 
     
 
-## 📚 Acknowledgments
--   PyAutoGUI development team
--   Flask community
--   PEP8 standards for code guidelines
-    
+## 📚 How DeepSeek made it?
+-   **Remoting windows mouse pointer**:[https://youtu.be/Ty720zM9gS4]
+-   **Webserver part**:[https://youtu.be/Ij3wiHdYwDU]
+-   **Writing the Readme.md**: [https://youtu.be/iAKyPOpZPnM]
 
  
